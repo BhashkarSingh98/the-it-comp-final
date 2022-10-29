@@ -1,0 +1,401 @@
+@media (max-width:1024px){
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+   
+
+
+    
+    body{
+         width: 1024px;
+       
+    } 
+    nav.icon1{
+        display: block;
+
+
+    }
+    .logo1{
+
+
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        right:80px;
+       
+    }
+    nav ul{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background: white;
+        top: 100px;
+        left: -150%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+        overflow:hidden ;
+       
+       
+    }
+    nav li{
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 25px;
+
+    }
+    a.active,a:hover{
+        border: none;
+        color:black;
+    }
+    nav ul.show{
+        left: 0;
+    } 
+  nav{
+        height: 130px;
+        width: 1024px;
+        border: none;
+        background-color:#FFFFFF;
+        position: fixed;
+        z-index: 2;
+    }  
+  
+    .img{
+        background-image: url(p2/p6.jpg);
+        height: 85vh;
+        width: 1024px;
+       margin-left: 0;
+      
+       
+    }
+
+    .te{ height: 200px;
+        width: 400px ;
+        margin:450px auto ;
+       
+    } 
+    .main{
+      height: 1100px;
+      width:1024px;
+       display: block;
+       border: none;
+    }
+    .box1{
+        width: 500px;
+        height: 340px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 300px;
+    } 
+    .box2{
+        width: 520px;
+        height:650px;
+         background-image: url(p2/p2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-right: 0;
+        margin-left: 280px;
+    }
+    .art {
+        margin: 0;
+        padding: 0;
+        height: 2300px;
+        width:1024px;
+        border: none;
+       
+    }
+    article {
+                
+        box-sizing:none; 
+         display: block;
+         margin-right: 0px;
+         overflow:  visible;
+    }
+    .img1{
+        height: 600px;
+        width: 900px;
+        position: relative;
+        left: 0;
+        border: none;
+       
+    }
+    .img2{
+        height: 600px;
+        width: 900px;
+        position: relative;
+        border: none;
+        right: 0;
+    }
+    .img3{
+        height: 600px;
+        width: 900px;
+        position: relative;
+        border: none;
+        right: 0;
+    }
+    
+   
+    figcaption i{
+        visibility: visible;
+        margin-right: 10px;
+        color: blue;
+        
+        width: 20px;
+    }  
+   
+
+    .hidden{
+     visibility: hidden;
+    }  
+    #tata{
+        position: relative;
+       top: 60px;
+       margin-left: 37%;
+        
+       color:black;
+       font-size: 40px;
+       font-weight: bold; 
+    }
+    #b{
+        font-weight: bold;
+         font-size: 20px;
+    }
+    
+    #c{
+        position: relative;
+       top: -30px;
+      left:70%;
+      font-size: 20px;
+    }
+    
+    .slider{
+        height: 450px;
+        width: 1024px;
+    
+    }
+    .slider article{
+        height: 440px;
+        width: 100%;
+        
+        position: relative;
+        top: -60px;    
+       
+    }
+    .sl1{
+        height: 400px;
+        width: 500px;
+       
+    }
+    .sl2{
+        height: 400px;
+        width: 500px;
+    }
+    .sl3{
+        height: 400px;
+        width: 500px;
+    }
+    .foot11{
+        height: 900px;
+         width: 1024px;
+        box-sizing: border-box;
+       
+    }
+    .feel1{
+        height: 250px;
+        width: 590px;
+        position: relative;
+        top: 10px;
+        left: 0;
+     }
+     
+     .m1{
+        width: 300px;
+        height: 100px;
+        position: relative;
+        left: 65%;
+        top: 30px;
+        color: blue;
+        font-size: 30px;
+    }
+    .m1 b{
+        font-size: 35px;
+    }
+    .m2{
+        width: 450px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+        left: 55%;
+        font-family: cursive;
+    }
+    .feel1 p{
+        z-index: 1;
+        font-size: 30px;
+    }
+    .feel3{
+        height: 300px;
+        width: 500px;
+        position: relative;
+        left: -15%;
+        top: -70px;
+    }
+    .feel2{
+        height: 100px;
+        width: 600px;
+       display: block;
+        position: relative;
+        top: 475px;
+        left: 0;
+    } 
+    
+    #s1 input{
+        height: 60px;
+        width: 965px;
+        border-radius: 6px;
+        border: 0;
+        outline: none;
+        background-color: rgba(145, 148, 148, 0.3);
+        text-align: center;
+        font-size: 20px;
+    }
+    #s1{
+        position: relative;
+           left: 25px;
+    }
+    .btn{
+        height: 60px;
+        width: 965px;
+       position: relative;
+       left: 113PX;
+        margin-left: -88px;
+       text-align: center;
+       top: 30px;
+      padding-top: px;
+      color: black;
+      font-size: 22px;
+      background-color: blue;
+      border-radius: 5px;
+    }
+    .btn:hover{
+        font-size: 22px;
+        
+    }
+    .footer{
+        height: 700px;
+        width: 1024px;
+    }
+    .foot1{
+        height: 150px;
+        width: 600px;
+        text-align: left;
+        position: relative;
+        top: 40px;
+        left: 20px;
+        font-size: 25px;
+    }
+     .foot2{
+        height: 150px;
+        width: 600px;
+        position: relative;
+        top: -90px;
+        margin-left: 20px;
+        font-size: 30px;
+     }
+      .foot3{
+        height: 150px;
+        width: 600px;
+        position: relative;
+        top: -10px;
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: left;
+      }
+    
+     .foot4{
+        height: 150px;
+        width: 600px;
+        position: relative;
+        top: -80px;
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: left;
+        overflow:hidden ;
+       list-style-type: none;
+    }
+    
+    .b1{
+        display:block;
+        overflow: hidden;
+        
+    }
+
+    .b2{
+                                
+        display:block;
+        overflow: hidden;
+    }  
+    ol{
+                               
+        margin-left: 3px;
+        font-size: 20px;   
+    }
+    .icon{
+        margin-top: 20px;
+        justify-content: left;
+        
+     } 
+     .bha{
+        visibility: visible;
+    }
+    .menu-toggle{
+        position: absolute;
+        top: 9%;
+        left: 85%;
+        display: block;
+        margin-top: 40px;
+        z-index: 1;
+        visibility: visible;
+    } 
+    span{
+        width: 30px ;
+        height: 5px;
+        display: block;
+        background-color:black;
+        margin: 8px;
+        cursor: pointer;
+        transition: .3s all;
+        border-radius: 30px;
+    } 
+    address{
+        font-size: 20px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+     .dropdown {
+        height: 0px;
+        width: 0px;
+        display: none;
+       
+    }
+    .up0{
+        display: none;
+    }
+    .up{
+        display: none;
+    }
+    #h i{
+        display: none;
+    }
+} 
