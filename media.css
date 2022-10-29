@@ -8,7 +8,7 @@
     display: block;
   }
   .logo1 {
-    font-size: 15px;
+    font-size: 20px;
     position: relative;
     top: 20px;
     right: 85px;
@@ -73,7 +73,7 @@
 
   }
   .main {
-    height: 770px;
+    height: 740px;
     width: 100%;
     display: block;
     border: none;
@@ -98,7 +98,7 @@
     border-radius: 20px;
 
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
   }
   .art {
     margin: 0;
@@ -245,7 +245,7 @@
   }
   .feel1 p {
     z-index: 1;
-    font-size: 16px;
+    font-size: 18px;
   }
   .feel3 {
     height: 200px;
@@ -280,7 +280,7 @@
     outline: none;
     background-color: rgba(145, 148, 148, 0.3);
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     margin: auto;
   }
   .btn {
@@ -290,7 +290,7 @@
     left: 0px;
     text-align: center;
     top: -145px;
-    color: black;
+    color:white;
     font-size: 15px;
     background-color: blue;
     border-radius: 5px;
