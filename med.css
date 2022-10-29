@@ -53,12 +53,13 @@
             left: 0;
         } 
       nav{
-            height: 130px;
+            height: 100px;
             width: 100%;
             border: none;
             background-color:#FFFFFF;
             position: fixed;
             z-index: 2;
+            border: 1px solid red;
            }  
       
         .img{
